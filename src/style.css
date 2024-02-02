@@ -1,0 +1,56 @@
+body {
+    background-image: url(img/gatcsword.png);
+    font-family: monospace;
+    backdrop-filter: blur(8px);
+    height: 95vh;
+}
+
+.container {
+    font-family: 'Arial';
+    text-align: center;
+    margin-top: 20px;
+}
+  
+h2 {
+    color: white;
+    font-family: cursive;
+}
+  
+input {
+    padding: 15px;
+    margin-right: 10px;
+    background-color: #cccccc00;
+    border: 0.5px solid white;
+}
+
+input::placeholder {
+    color: white;
+}
+  
+.addButton {
+    background-color: rgba(0, 128, 0, 0);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border: 0.5px solid white;
+}
+  
+.nameList {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.listItem {
+    padding: 5px 0;
+    color: white;
+}
+  
+
+.deleteButton {
+    background-color: rgba(255, 0, 0, 0);
+    color:  white;
+    padding: 9px 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0.5px solid white;
+}
